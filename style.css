@@ -1,0 +1,105 @@
+/*feedback button formatting*/
+button#feedback-web_button {
+    margin: 0px;
+    padding: 0px;
+    z-index:1000 !important;
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+/*feedback button formatting*/
+#feedbackbtn{
+    background: url('speech-bubble-3.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-top: 3px;
+    display: block;
+    height: 17px;
+    width: 19px;
+}
+
+/*feedback button formatting*/
+div#logo_and_button {
+    z-index:1000 !important;
+    float: right;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+/* Feedback button tooltip text */
+.tooltip_feedback .tooltiptext_feedback {
+    visibility: hidden;
+    font-size: 12px;
+    background-color: #F6F6F8;
+    color: darkblue;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    position: absolute; /* Position the tooltip text*/
+    z-index: 99999;
+}
+
+/* Feedback button: show the tooltip text when you mouse over the tooltip container */
+.tooltip_feedback:hover .tooltiptext_feedback {
+    visibility: visible;
+}
+
+/*Feedback form: alignment of feedback button and success tick*/
+div#feedback_button_success {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/*formatting check mark upon placing feedback*/
+.blue_check-circle {
+  color: #20A0FF;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+/*adjusting the padding above the body of the model box a bit*/
+.modal-body {
+  padding-top: 6px;
+}
+
+/*adjusting position of logo and feedback button a bit*/
+.tooltip_feedback {
+    padding-top: 30px;
+    margin-bottom: -20px;
+}
+
+/*Feedback form: size of emojis for each group*/
+div#experience.shiny-input-radiogroup.shiny-input-container-inline label~.shiny-options-group {
+font-size: 20px !important;
+}
+
+div#layout.shiny-input-radiogroup.shiny-input-container-inline label~.shiny-options-group {
+font-size: 20px !important;
+}
+
+div#data_vis.shiny-input-radiogroup.shiny-input-container-inline label~.shiny-options-group {
+font-size: 20px !important;
+}
+
+
+
+
+
